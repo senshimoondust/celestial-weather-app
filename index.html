@@ -10,9 +10,12 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
+      <!--Begin container div-->
+
       <div class="main">
         <div class="header">
           <h1>Celestial Weather Forecast</h1>
@@ -22,6 +25,8 @@
           />
         </div>
         <hr />
+
+        <!--Input city form-->
         <div class="form">
           <form>
             <input class="city" type="text" placeholder="Enter your city..." />
@@ -29,6 +34,8 @@
             <button class="current">Current</button>
           </form>
           <hr />
+
+          <!--Current Forecast-->
           <div class="forecast">
             <p>Location:</p>
             <ul>
@@ -39,6 +46,8 @@
           </div>
         </div>
         <hr />
+
+        <!--Weekly Forecast-->
         <div class="week">
           <div class="row row-cols-5">
             <div class="col">
@@ -64,8 +73,10 @@
           </div>
         </div>
       </div>
+
+      <!-- End container div-->
     </div>
     <footer>Coded by Jennifer Myrie</footer>
-    <script src="src/index.js"></script>
+    <script src="src/script.js"></script>
   </body>
 </html>
