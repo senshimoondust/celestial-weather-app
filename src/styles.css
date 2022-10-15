@@ -1,1 +1,150 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/048/119/original/background5.jpg?1665513592");
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  font-family: fantasy;
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.moon {
+  display: block;
+  margin: 0 auto;
+}
+
+.main {
+  background: linear-gradient(
+    180.3deg,
+    rgb(214, 224, 255) 37.2%,
+    rgb(254, 168, 168) 137.3%
+  );
+  border: 1px solid #000000;
+  border-radius: 40px;
+  margin: 50px auto;
+  padding: 30px;
+  width: 80%;
+  height: 80%;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 50%;
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+}
+
+.form {
+  display: block;
+  text-align: center;
+  background-color: azure;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 50%;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+}
+
+.city {
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+}
+
+.search {
+  background-color: #a393eb;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  margin: 10px 10px;
+  box-shadow: 5px 5px 10px azure;
+}
+
+.current {
+  background-color: #8ed2c9;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  padding: 10px;
+  margin: 10px 10px;
+  box-shadow: 5px 5px 10px azure;
+}
+
+.col {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.week {
+  display: block;
+  text-align: center;
+  margin: 90px auto;
+  background-color: azure;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 10px;
+  width: 90%;
+  background: linear-gradient(
+    99.6deg,
+    rgb(112, 128, 152) 10.6%,
+    rgb(242, 227, 234) 32.9%,
+    rgb(234, 202, 213) 52.7%,
+    rgb(220, 227, 239) 72.8%,
+    rgb(185, 205, 227) 81.1%,
+    rgb(154, 180, 212) 102.4%
+  );
+}
+
+.forecast {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search:hover {
+  background-color: #a56cc1;
+  color: #ffffff;
+}
+
+.current:hover {
+  background-color: aquamarine;
+}
 
